@@ -252,6 +252,13 @@ p {
     justify-content: center;
 }
 
+.icon {
+
+    flex-shrink: 0;
+    height: #4d5ae5, #2e2f42;
+    margin-left: 100px;
+    margin: 24px;
+
 .advantages-title {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
