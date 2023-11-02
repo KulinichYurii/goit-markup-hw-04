@@ -239,6 +239,18 @@ p {
     padding: 120px 0;
 }
 
+.icon-container {
+    display: flex;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+    background: #F4F4FD;
+    align-items: center;
+    justify-content: center;
+}
 
 .advantages-title {
     font-family: 'Roboto', sans-serif;
