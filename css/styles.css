@@ -503,8 +503,8 @@ p {
     color: #F4F4FD;
 }
 .social-media-wrapper {
+    display:flex;
     width: 208px;
     height: 80px;
-    flex-shrink: 0;
-    display: flex;
+
 }
