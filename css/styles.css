@@ -421,7 +421,7 @@ p {
     
 }
 
-/*.social-links {
+.social-links {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -437,7 +437,7 @@ p {
 .social-links:hover,
 .social-links:focus {
     background-color: #404bbf;
-}*/
+}
 
 /*-----------------4 SECTION-----OUR PORTFOLIO-----------------*/
 
@@ -590,7 +590,9 @@ cursor: pointer;
     font-weight: 500;
     color: #ffffff;
     margin-bottom: 16px;
-
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer-social-wrapper {
@@ -601,6 +603,8 @@ cursor: pointer;
     display: flex;
     gap: 16px;
 }
+
+
 
 .social-links-item .circle:hover,
 .social-links-item .circle:focus {
