@@ -448,18 +448,45 @@ p {
 }
 
 
-.portfolio-list-item {
-    background: var(--WHITE, #FFF);
-    width: calc((100% - 48px) / 3);
+.portfolio-list-item .overlay .portfolio-item-overlay-text {
+    /*background: var(--WHITE, #FFF);
+    width: calc((100% - 48px) / 3);*/
+    color: #f4f4fd;
+    background-color: #4d5ae5;
+    padding: 40px 32px;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(100%);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.portfoliо-item-container {
+.portfoliо-item-container .portfolio-list{
+    position: relative;
     padding: 32px 16px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     border-top: none;
+    
 }
 
+.portfolio-list-item {
+    position: relative;
+    overflow: hidden;
+    flex-basis: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
 
+.portfolio-list-item:hover {
+    box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16),
+    0 2px 1px rgba(46, 47, 66, 0.08);
+cursor: pointer;
+}
 
 .portfolio-stuff {
     font-family: 'Roboto', sans-serif;
@@ -481,6 +508,16 @@ p {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.portfolio-list-item .overlay {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-list-item:hover .overlay .portfolio-item-overlay-text {
+    transform: translateY(0%);
+}
+
 
 
 /*-----------------FOOTER-----------------*/
