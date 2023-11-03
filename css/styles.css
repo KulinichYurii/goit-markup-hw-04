@@ -502,3 +502,9 @@ p {
     text-transform: uppercase;
     color: #F4F4FD;
 }
+.social-media-wrapper {
+    width: 208px;
+    height: 80px;
+    flex-shrink: 0;
+    display: flex;
+}
