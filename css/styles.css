@@ -161,7 +161,7 @@ p {
     gap: 40px;
 }
 
-.navadress-list-item .navadress-links {
+.navadress-list-item .header-list-item {
     display: flex;
     flex-direction: row;
     gap: 40px;
