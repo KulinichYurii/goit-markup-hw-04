@@ -536,6 +536,8 @@ cursor: pointer;
     padding-top: 100px;
     padding-bottom: 100px;
     flex-shrink: 0;
+    display: flex;
+    align-items: baseline;
 }
 
 .logotype-footer {
@@ -573,12 +575,7 @@ cursor: pointer;
     gap: 16px;
 }
 
-.social-links-item .elipse:hover,
-.social-links-item .elipse:focus {
+.social-links-item .circle:hover,
+.social-links-item .circle:focus {
     background-color: #31d0aa;
-}
-
-.footer .container {
-    display: flex;
-    align-items: baseline;
 }
