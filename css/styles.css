@@ -283,7 +283,6 @@ p {
 }
 
 .icon {
-
     flex-shrink: 0;
     height: #4d5ae5, #2e2f42;
     margin-left: 100px;
@@ -348,7 +347,7 @@ p {
     gap: 24px;
 }
 
-.team-list-item .team-img {
+.team-list-item {
     background: var(--WHITE, #fff);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
