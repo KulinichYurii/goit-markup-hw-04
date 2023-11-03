@@ -541,67 +541,55 @@ cursor: pointer;
 
 /*-----------------FOOTER-----------------*/
 
-.page-footer {
-    background-color: #2E2F42;
+.footer {
+    color: #f4f4fd;
+    background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: baseline;
+}
+
+.footer-slogan {
+    margin-right: 120px;
+}
+
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer .logo-accent {
+    color: #f4f4fd;
 }
 
 .footer-text {
-    max-width: 264px;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    font-weight: 400;
+    width: 264px;
 }
 
-.logotype-footer {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-    display: inline-block;
-    margin-bottom: 16px;
-
-}
-
-
-.logotype-footer-span {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #F4F4FD;
-}
+.footer-social {}
 
 .footer-social-title {
     display: block;
     font-weight: 500;
     color: #ffffff;
     margin-bottom: 16px;
-
 }
 
-.footer-social-wrapper {
-
-
-}
-
-.social-icons-list {
+.footer-social-list {
     display: flex;
     gap: 16px;
 }
 
-.social-links-item .circle:hover,
-.social-links-item .circle:focus {
+.footer-social-list-item .elipse:hover,
+.footer-social-list-item .elipse:focus {
     background-color: #31d0aa;
+}
+
+.footer .container {
+    display: flex;
+    align-items: baseline;
 }
