@@ -541,15 +541,6 @@ cursor: pointer;
 
 /*-----------------FOOTER-----------------*/
 
-.footer-text {
-    max-width: 264px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-}
-
 .page-footer {
     background-color: #2E2F42;
     padding-top: 100px;
@@ -557,7 +548,15 @@ cursor: pointer;
     flex-shrink: 0;
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+}
+
+.footer-text {
+    max-width: 264px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
 
 .logotype-footer {
@@ -573,9 +572,6 @@ cursor: pointer;
 
 }
 
-.footer-social-wrapper {
-    
-}
 
 .logotype-footer-span {
     font-family: 'Raleway', sans-serif;
@@ -592,6 +588,12 @@ cursor: pointer;
     font-weight: 500;
     color: #ffffff;
     margin-bottom: 16px;
+
+}
+
+.footer-social-wrapper {
+
+
 }
 
 .social-icons-list {
