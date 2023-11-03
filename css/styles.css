@@ -261,7 +261,6 @@ p {
 }
 
 
-
 /*---------------2 SECTION---------ADVANTAGES STYLES-----------------*/
 
 .section-advantages {
@@ -572,6 +571,8 @@ cursor: pointer;
     margin-bottom: 16px;
 
 }
+
+.footer-social-wrapper {}
 
 .logotype-footer-span {
     font-family: 'Raleway', sans-serif;
