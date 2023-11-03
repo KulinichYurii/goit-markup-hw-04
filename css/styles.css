@@ -247,10 +247,6 @@ p {
     margin-top: 48px;
 }
 
-.order-button {
-    cursor: pointer;
-}
-
 .order-button:hover {
     background-color: #404BBF;
 }
@@ -258,6 +254,13 @@ p {
 .order-button:focus {
     background-color: #404BBF;
 }
+
+.order-button {
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 
 /*---------------2 SECTION---------ADVANTAGES STYLES-----------------*/
 
@@ -345,7 +348,7 @@ p {
     gap: 24px;
 }
 
-.team-list-item {
+.team-list-item .team-img {
     background: var(--WHITE, #fff);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
