@@ -385,12 +385,13 @@ p {
 .social-icons-list {
     display: flex;
     justify-content: center;
-    column-gap: 24px;
+    gap: 24px;
 
 }
 
 .social-links-item {
-    width: calc((100%-72px)/4);
+    width: 40px;
+    height: 40px;
 }
 
 .team-icon {
@@ -401,10 +402,10 @@ p {
 
 .social-links {
     display: flex;
-    width: 40px;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    height: 40px;
+    height: 100%;
     flex-shrink: 0;
     background-color: var(--IRIS, #4D5AE5);
     border-radius: 50%;
