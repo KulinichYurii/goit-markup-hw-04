@@ -414,7 +414,7 @@ p {
 
 .social-links:hover,
 .social-links:focus {
-    background-color: var(--GREEN, #31D0AA);
+    background-color: #404bbf;
 }
 
 /*-----------------4 SECTION-----OUR PORTFOLIO-----------------*/
