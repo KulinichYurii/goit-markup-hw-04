@@ -421,7 +421,7 @@ p {
     
 }
 
-.social-links {
+/*.social-links {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -437,7 +437,7 @@ p {
 .social-links:hover,
 .social-links:focus {
     background-color: #404bbf;
-}
+}*/
 
 /*-----------------4 SECTION-----OUR PORTFOLIO-----------------*/
 
