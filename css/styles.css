@@ -560,3 +560,25 @@ cursor: pointer;
     text-transform: uppercase;
     color: #F4F4FD;
 }
+
+.footer-social-title {
+    display: block;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.social-icons-list {
+    display: flex;
+    gap: 16px;
+}
+
+.social-links-item .elipse:hover,
+.social-links-item .elipse:focus {
+    background-color: #31d0aa;
+}
+
+.footer .container {
+    display: flex;
+    align-items: baseline;
+}
