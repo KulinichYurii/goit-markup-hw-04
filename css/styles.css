@@ -543,16 +543,18 @@ cursor: pointer;
 
 /*-----------------FOOTER-----------------*/
 
+.page-footer {
+    display: flex;
+    align-items: baseline;
+}
 
 
 .page-footer {
-   
+     
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
     flex-shrink: 0;
-    display: flex;
-    align-items: baseline;
 }
 
 .footer-text {
