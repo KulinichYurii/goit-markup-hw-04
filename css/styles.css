@@ -550,11 +550,6 @@ cursor: pointer;
     align-items: baseline;
 }
 
-.footer-social-wrapper {
-    display: flex;
-    align-items: baseline;
-}
-
 .footer-text {
     max-width: 264px;
     font-size: 16px;
