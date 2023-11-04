@@ -542,8 +542,6 @@ cursor: pointer;
 
 /*-----------------FOOTER-----------------*/
 
-
-
 .page-footer {
     background-color: #2E2F42;
     padding-top: 100px;
@@ -604,6 +602,9 @@ cursor: pointer;
     gap: 16px;
 }
 
+.footer-logo {
+    margin-right: 120px;
+}
 
 
 .footer-social-links-item .circle:hover,
