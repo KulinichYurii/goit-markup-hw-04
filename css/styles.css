@@ -600,14 +600,14 @@ cursor: pointer;
 
 }
 
-.social-icons-list {
+.footer-social-icons-list {
     display: flex;
     gap: 16px;
 }
 
 
 
-.social-links-item .circle:hover,
-.social-links-item .circle:focus {
+.footer-social-links-item .circle:hover,
+.footer-social-links-item .circle:focus {
     background-color: #31d0aa;
 }
