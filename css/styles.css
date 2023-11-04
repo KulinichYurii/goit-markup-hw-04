@@ -118,6 +118,7 @@ p {
 }
 
 .underline {
+    content: "";
     position: relative;
     color: #404BBF;
     width: 100%;
