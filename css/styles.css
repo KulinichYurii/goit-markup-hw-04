@@ -138,6 +138,10 @@ p {
     transform: translateY(21px);
     border-radius: 2px;*/
 
+    .header-list-item .link {
+        color: #404bbf;
+    }
+
 .header-list-item .link {
     display: block;
     position: relative;
