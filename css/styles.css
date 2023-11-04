@@ -545,12 +545,18 @@ cursor: pointer;
 
 
 .page-footer {
-    background-color: #2E2F42;
+    
+    color: #f4f4fd;
+    background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    /*background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
     flex-shrink: 0;
     display: flex;
-    align-items: baseline;
+    align-items: baseline;*/
 }
 
 .footer-text {
